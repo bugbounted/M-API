@@ -1,0 +1,12 @@
+{
+    "name": "M-API",
+    "description": "This is MAJHCC's(Mohammed Aljahawri) API helps you to do some cool stuffs.",
+    "repository": "https://github.com/pmbeman/M-API"
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {   
+            "url": "heroku/python"  
+        }
+      ]
+  }
