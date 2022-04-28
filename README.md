@@ -27,7 +27,7 @@ You can run it on your local machine.
 ```python3 main.py```
 
 ## One-Click Deploy
-- Click  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pmbeman/M-API)
+- Click  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pmbeman/M-API/tree/main)
 
 
 
