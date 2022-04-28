@@ -38,7 +38,7 @@ app.add_middleware(
 
 @app.get("/", response_class=RedirectResponse)
 def read_root():
-    return RedirectResponse("https://محمد-الجهوري.شبكة")
+    return RedirectResponse("https://mamalapi.herokuapp.com")
 
 
 @app.get("/api/tk", tags=['downloading'])
@@ -59,7 +59,7 @@ async def TikTok(url: str):
     """
     from src.tiktok.tiktok import getVideo
     json = getVideo(url)
-    json['dev'] = "@majhcc"
+    json['dev'] = "@tlgurl"
     return json
 
 
